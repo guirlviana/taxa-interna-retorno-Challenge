@@ -1,4 +1,17 @@
-# TIR (TAXA INTERNA DE RETORNO)
+# PARA EXECUTAR O PROJETO
+`pip install -r requirements.txt`
+
+Em seguida.
+
+`python main.py`
+
+Por padrão, a TIR será mostrada no terminal em decimal (é possível alterar para porcentagem), também será gerado o arquivo datas.json contendo os campos
+
+- tir `valor da tir`
+- financial_movement `fluxo de caixa de acordo as parcelas e investimentos`
+
+# DESCRIÇÃO
+## TIR (TAXA INTERNA DE RETORNO)
 
 TIR é a fórmula utilizada para encontrar a taxa de retorno de acordo com o fluxo de caixa
 de uma carteira dado seus investimentos realizados e parcelas recebidas ou a receber.
